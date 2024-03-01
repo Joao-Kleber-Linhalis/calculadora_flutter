@@ -27,7 +27,7 @@ class _CalculadoraState extends State<Calculadora> {
       home: Column(
         children: [
           Display(
-            text: memory.value.isEmpty ? '0' : memory.value,
+            text: memory.value,
           ),
           Keyboard(
             cb: _onPressed,
